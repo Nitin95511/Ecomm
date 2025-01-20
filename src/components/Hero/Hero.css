@@ -1,0 +1,81 @@
+.hero{
+    height: 100vh;
+    background: linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+    display: flex;
+    font-family: "Quicksand";
+}
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+
+}
+.hero-left h2{
+    color: black;
+    font-size: 2vw;
+    font-weight: 600;
+   
+}
+.hero-left p{
+    color: black;
+    font-size: 4vw;
+    font-weight: 700;
+
+}
+.hand-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hand-hand-icon img{
+    width: 105px;
+}
+ /* .hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: red;
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 500;
+
+} */
+ .hero-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero-latest-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 20vw;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: red;
+    color: aliceblue;
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+.hero-latest-btn img{
+    display: flex;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.hero-right img{
+    width: 37vw;
+    height: auto;
+}
